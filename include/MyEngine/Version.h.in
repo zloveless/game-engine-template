@@ -1,0 +1,8 @@
+#pragma once
+namespace MyEngine
+{
+  constexpr auto MYENGINE_VERSION_MAJOR = @PROJECT_VERSION_MAJOR@;
+  constexpr auto MYENGINE_VERSION_MINOR = @PROJECT_VERSION_MINOR@;
+  constexpr auto MYENGINE_VERSION_PATCH = @PROJECT_VERSION_PATCH@;
+  constexpr auto MYENGINE_VERSION = "@PROJECT_VERSION@";
+}
